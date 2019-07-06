@@ -16,7 +16,7 @@ We will use the Bitnami Wordpress stack since we use Bitnami Wordpress on makerf
 
 ###File access & editing
 If you can't edit files in the filesystem (with terminal / ssh or when mounted using the mount button), you may hit a problem that Ian encountered. 
-Use the Bitnami app to open a terminal session. If you are connected as root, then `su bitnami` and `cd ~'
+Use the Bitnami app to open a terminal session. If you are connected as root, then `su bitnami` and `cd ~`
 The system will then prompt you for a password. For Ian, everything worked after that (but I need to do this user change every time)
 
 
